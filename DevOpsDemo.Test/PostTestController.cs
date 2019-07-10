@@ -47,7 +47,7 @@ namespace DevOpsDemo.Test
             var model = Assert.IsAssignableFrom<List<PostViewModel>>(viewResult.ViewData.Model);
             Assert.Equal(3, model.Count);
             Assert.Equal(101, model[0].PostId);
-            Assert.Equal("DevOps Demo Title 2", model[0].Title);
+            Assert.Equal("DevOps Demo Title 1", model[0].Title);
         }
     }
 }
